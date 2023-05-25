@@ -1,0 +1,197 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #222831;
+}
+
+header {
+    background-color:rgb(218, 101, 140); ;
+    padding: 15px 0px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 50px;
+}
+
+nav .left {
+    font-size: 24px;
+    font-weight: bold;
+    color: #EEEEEE;  }
+
+nav .right ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav .right ul li {
+    cursor: pointer;
+    padding: 5px;
+    
+    color: #EEEE;  
+}
+
+nav .right ul li:hover {
+    color:#EEEE;
+}
+.nav-button:hover{
+    background-color:#393E46 ;
+}
+.nav-button{
+  
+    background-color:#222831;
+    padding: 5px;
+    
+}
+
+
+
+main {
+    margin: 50px;
+}
+
+.firstsection {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+    background-color:#EEEEEE ;
+    border-radius: 9px;
+}
+
+.firstsection-left {
+    max-width: 60%;
+}
+
+
+button {
+    padding: 6px 20px;
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(218, 101, 140);
+    color: white;
+    font-size: 16px;
+    transition: background-color 0.5s ease;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+button:hover {
+    background-color: rgb(219, 163, 182);
+}
+
+button a {
+    color: white;
+    text-decoration: none;
+}
+
+.firstsection-right {
+    max-width: 40%;
+    background-color: #b1a296;
+    height: 350px;
+    border-radius: 8px;
+    overflow-y: scroll;
+}
+.image-container {
+    display: flex;
+    flex-direction: column;  
+    overflow-y: auto;  
+    height: 100%;
+    width: 100%;
+}
+
+.firstsection-left,.firstsection-right,header{
+   
+    white-space: nowrap;
+    overflow: hidden;
+    animation: typing 2s steps(40, end), blink 0.75s step-end infinite;
+}
+
+@keyframes typing {
+    from { width: 30px }
+    to { width: 100%}
+}
+
+
+.aboutsection-div{
+
+    background-color:rgb(218, 101, 140);
+    padding :40px;
+    border-radius: 50px;
+}
+.aboutsectionpara{
+    font-stretch: narrower;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color:white;
+}
+.contact{
+    display: flex;
+    justify-content: space-around;
+  height: 250px;
+ border-top-right-radius: 30px;
+ border-top-left-radius: 30px;
+   background-color: rgb(225, 156, 179);
+ padding: 20px ;
+
+}
+.form{
+    margin: 20px auto;
+text-align: center;
+padding: 222px;
+border: 5px solid rgb(218, 101, 140);
+border-radius: 20px;
+}
+#submit{
+    background-color: rgb(244, 209, 220);
+    border-color: rgb(222, 129, 160);
+    border-radius: 7px;
+    padding: 5px 10px;
+     cursor: pointer;
+}
+#email,#phonenumber,#name{
+    width: 220px;
+   height: 22px;
+   border-radius: 5px;
+}
+
+#submit{
+    width: 100px;
+}
+
+.project-row{
+    
+    display: flex;
+    flex-direction: row;  
+    overflow-y: auto; 
+    justify-content:space-around;
+    background-color:#222831;
+    margin: 4px;
+   
+
+}
+.projects1{
+    background-color: #fff7f7;
+    height: 400px;
+    width: 450px;
+    border-radius: 7px;
+  
+  
+}
+.projects2{
+    background-color: #e6e6e6;
+    height: 400px;
+    width: 450px;
+    border-radius: 7px;
+
+}
+
+.projects3{
+    background-color: #f2f2f5;
+    height: 400px;
+    width: 450px;
+    border-radius: 7px;
+}
+
+

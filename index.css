@@ -2,11 +2,12 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #222831;
+    background-color:#161616 ;
 }
 
 header {
-    background-color:rgb(218, 101, 140); ;
+    background-color:#292c56 ;
+    ;
     padding: 15px 0px;
 }
 
@@ -42,7 +43,7 @@ nav .right ul li:hover {
 }
 .nav-button{
   
-    background-color:#222831;
+    background-color:#000000;
     padding: 5px;
     height: 30px;
     width: 150px;
@@ -80,7 +81,7 @@ button{
     padding: 6px 20px;
     border-radius: 5px;
     border: none;
-    background-color: rgb(218, 101, 140);
+    background-color:#3c4177 ;
     color: white;
     font-size: 16px;
     transition: background-color 0.5s ease;
@@ -90,7 +91,7 @@ button{
     height: 40px;
 }
 button:hover {
-    background-color: rgb(219, 163, 182);
+    background-color: #4e5068;
 }
 
 button a {
@@ -117,7 +118,7 @@ button a {
 
 .aboutsection-div{
 
-    background-color:rgb(218, 101, 140);
+    background-color:#323555;
     padding :40px;
     border-radius: 50px;
 }
@@ -132,7 +133,7 @@ button a {
   height: 250px;
  border-top-right-radius: 30px;
  border-top-left-radius: 30px;
-   background-color: rgb(225, 156, 179);
+   background-color:#cf894f ;
  padding: 20px ;
 
 }
@@ -140,12 +141,12 @@ button a {
     margin: 20px auto;
 text-align: center;
 padding: 222px;
-border: 5px solid rgb(218, 101, 140);
+border: 5px solid #ac8654;
 border-radius: 20px;
 }
 #submit{
     background-color: rgb(244, 209, 220);
-    border-color: rgb(222, 129, 160);
+    border-color: #E3CCAE;
     border-radius: 7px;
     padding: 5px 10px;
      cursor: pointer;
@@ -166,18 +167,26 @@ border-radius: 20px;
     flex-direction: row;  
     overflow-y: auto; 
     justify-content:space-around;
-    background-color:#222831;
+    background-color:#161616;
     margin: 4px;
    
 
+}
+.onimg{
+    background: #000;
+    justify-content: center;
+    border-radius: 40px;
 }
 .projects1{
     background-color: #fff7f7;
     height: 400px;
     width: 450px;
     border-radius: 7px;
-  
-  
+ background-image: url("images/tress.jpg");
+ background-position: center;
+  background-size: 600px; 
+  font-weight: 500;
+  font-display: center;
 }
 .projects2{
     background-color: #e6e6e6;

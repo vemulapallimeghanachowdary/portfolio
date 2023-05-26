@@ -44,29 +44,37 @@ nav .right ul li:hover {
   
     background-color:#222831;
     padding: 5px;
+    height: 30px;
+    width: 150px;
     
 }
 
-
+.image-container{
+    font-size: 40px;
+}
 
 main {
     margin: 50px;
 }
-
+.section{
+    height: 200px;
+}
 .firstsection {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     padding: 50px;
-    background-color:#EEEEEE ;
+    background-color:#f4e8e8 ;
     border-radius: 9px;
+    height: 450px;
 }
+.firstsection-left{
 
-.firstsection-left {
-    max-width: 60%;
+    border-image: round;
+    border-radius: 40px;
 }
+ 
 
-
-button {
+button{
     padding: 6px 20px;
     border-radius: 5px;
     border: none;
@@ -76,8 +84,9 @@ button {
     transition: background-color 0.5s ease;
     cursor: pointer;
     text-decoration: none;
+    width: 200px;
+    height: 40px;
 }
-
 button:hover {
     background-color: rgb(219, 163, 182);
 }
@@ -87,21 +96,9 @@ button a {
     text-decoration: none;
 }
 
-.firstsection-right {
-    max-width: 40%;
-    background-color: #b1a296;
-    height: 350px;
-    border-radius: 8px;
-    overflow-y: scroll;
+.imbc{
+    border-radius: 150px;
 }
-.image-container {
-    display: flex;
-    flex-direction: column;  
-    overflow-y: auto;  
-    height: 100%;
-    width: 100%;
-}
-
 .firstsection-left,.firstsection-right,header{
    
     white-space: nowrap;

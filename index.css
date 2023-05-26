@@ -162,37 +162,32 @@ border-radius: 20px;
 }
 
 .project-row{
-    
     display: flex;
-    flex-direction: row;  
-    overflow-y: auto; 
-    justify-content:space-around;
-    background-color:#161616;
+    justify-content: space-between ; 
+    background: #161616;
     margin: 4px;
-   
 
 }
 .onimg{
     background: #000;
     justify-content: center;
-    border-radius: 40px;
+    border-radius: 60px;
 }
 .projects1{
     background-color: #fff7f7;
+    border-radius: 10px;
+    background-image: url("images/tress.jpg");
     height: 400px;
     width: 450px;
     border-radius: 7px;
- background-image: url("images/tress.jpg");
- background-position: center;
-  background-size: 600px; 
-  font-weight: 500;
-  font-display: center;
+    background-position: center;
+    background-size: 600px;
 }
 .projects2{
     background-color: #e6e6e6;
     height: 400px;
     width: 450px;
-    border-radius: 7px;
+    border-radius: 10px;
 
 }
 
@@ -200,7 +195,8 @@ border-radius: 20px;
     background-color: #f2f2f5;
     height: 400px;
     width: 450px;
-    border-radius: 7px;
+    border-radius: 10px;
 }
+
 
 

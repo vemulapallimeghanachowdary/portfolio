@@ -51,30 +51,31 @@ nav .right ul li:hover {
 
 .image-container{
     font-size: 40px;
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family: 'Times New Roman';
 }
-
 main {
-    margin: 50px;
+    margin: 30px;
 }
 .section{
     height: 200px;
 }
 .firstsection {
     display: flex;
-    justify-content: space-around;
-    padding: 50px;
+
+    
+padding: 7px;
     background-color:#f4e8e8 ;
     border-radius: 9px;
     height: 450px;
 }
 .firstsection-left{
-
     border-image: round;
-    border-radius: 40px;
+    border-radius: 40px;  
+    width: 1000px;
+    margin: 60px;
+    
 }
  
-
 button{
     padding: 6px 20px;
     border-radius: 5px;
@@ -98,13 +99,14 @@ button a {
 }
 
 .imbc{
+    height: 220px;
+    width: 220px;
     border-radius: 150px;
 }
-.firstsection-left,.firstsection-right,header{
-   
+.firstsection,header{
     white-space: nowrap;
     overflow: hidden;
-    animation: typing 2s steps(40, end), blink 0.75s step-end infinite;
+    animation: typing 1s steps(100, end), blink 0.15s step-end infinite;
 }
 
 @keyframes typing {
